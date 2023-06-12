@@ -34,11 +34,34 @@ Kext|Description
 [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)|Used for graphics patching, DRM fixes, board ID checks, framebuffer fixes, etc; all GPUs benefit from this kext.
 [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)|Used for AppleHDA patching, allowing support for the majority of on-board sound controllers.<br>AMD 15h/16h may have issues with this and Ryzen/Threadripper systems rarely have mic support.
 [LucyRTL8125Ethernet.kext](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/)|For Realtek's 2.5Gb Ethernet.
-[NVMeFix](https://github.com/acidanthera/NVMeFix/releases)|Used for fixing power management and initialization on non-Apple NVMe.
-[RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases)|Better experience with unsupported processors like AMD, Disable MacPro7,1 memory warnings and provide upgrade to macOS Monterey via Software Updates when available.
-[CpuTscSync](https://github.com/acidanthera/CpuTscSync/releases)|It is a Lilu plugin, combining functionality of VoodooTSCSync and disabling xcpm_urgency if TSC is not in sync. It should solve some kernel panics after wake.
-[USBWakeFixup](https://github.com/osy/USBWakeFixup)|This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
-USBMap|Kext generated after mapping the USB ports
+[NVMeFix.kext](https://github.com/acidanthera/NVMeFix/releases)|Used for fixing power management and initialization on non-Apple NVMe.
+[RestrictEvents.kext](https://github.com/acidanthera/RestrictEvents/releases)|Better experience with unsupported processors like AMD, Disable MacPro7,1 memory warnings and provide upgrade to macOS Monterey via Software Updates when available.
+[CpuTscSync.kext](https://github.com/acidanthera/CpuTscSync/releases)|It is a Lilu plugin, combining functionality of VoodooTSCSync and disabling xcpm_urgency if TSC is not in sync. It should solve some kernel panics after wake.
+[USBWakeFixup.kext](https://github.com/osy/USBWakeFixup)|This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
+USBMap.kext|Kext generated after mapping the USB ports
+
+## Tools
+
+Tool|Description
+:----|:----
+[ProperTree](https://github.com/corpnewt/ProperTree) | Configure config.plist
+[USBMap](https://github.com/corpnewt/USBMap) | Making the USB Map
+[gibMacOS](https://github.com/corpnewt/gibMacOS) | Download and create macOS images
+[SSDTTime](https://github.com/corpnewt/SSDTTime) | M ake creating SSDTs simple
+[CPU-Name](https://github.com/corpnewt/CPU-Name) | Fix the cpu name
+[MountEFI](https://github.com/corpnewt/MountEFI) | Shortcut to Mount the EFI Driver
+[gibMacRecovery](https://github.com/corpnewt/gibMacRecovery) | Download and create macOS recoverys
+[gebSMBIOS](https://github.com/corpnewt/GenSMBIOS) | Generate information from SMBIOS
+[IORegistryExplorer](https://github.com/vulgo/IORegistryExplorer) | Validate information regarding hardware power management
+[iASL](https://www.acpica.org/downloads) | Change and convert SSDTs (for Windows)
+[Mac iASL](https://github.com/acidanthera/MaciASL) | Change and convert SSDTs (for MAC)
+[OpenCore-Packager](https://github.com/chris1111/OpenCore-Packager) | Tool that assists in the installation of the EFI in a simple way
+
+## Softwares
+
+- [Stats](https://github.com/exelban/stats)
+- [Hackintool](https://github.com/benbaker76/Hackintool)
+
 
 ## BIOS Settings
 > Bios Version: **F11a**
