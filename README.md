@@ -6,7 +6,7 @@
 
 >🔧 _Based on Opencore 0.9.2_
 
-> 🖥️ SmBIOS - MacPro7,1
+> 🖥️ SmBIOS - iMacPro1,1
 
 This EFI was developed for the following hardware:
 - **CPU**: Intel Core i5 13th - 13600k
