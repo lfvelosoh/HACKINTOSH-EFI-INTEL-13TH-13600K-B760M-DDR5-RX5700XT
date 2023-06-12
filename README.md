@@ -62,7 +62,6 @@ Tool|Description
 - [Stats](https://github.com/exelban/stats)
 - [Hackintool](https://github.com/benbaker76/Hackintool)
 
-
 ## BIOS Settings
 > Bios Version: **F11a**
 * **Tweaker**
@@ -92,3 +91,9 @@ Tool|Description
   * Fast boot - ``Enabled``
   * Windows 10 Features - ``Windows 10``
   * CSM Support - ``Enabled``
+
+## Useful Links
+- [Dortania Getting Started](https://dortania.github.io/getting-started/)
+- [Dortania Troubleshooting](https://dortania.github.io/troubleshooting/)
+- [Dortania Post Install](https://dortania.github.io/OpenCore-Post-Install/)
+- [Dortania Documentation](https://dortania.github.io/docs/)
