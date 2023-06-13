@@ -2,7 +2,7 @@
 
 >⛓ [Link to the original repository](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-13THGEN-RAPTOR-LAKE)
 
->🔧 _Based on Opencore 0.9.2_
+>🔧 _Based on Opencore 0.9.3_
 
 > 🖥️ SmBIOS - iMacPro1,1
 
