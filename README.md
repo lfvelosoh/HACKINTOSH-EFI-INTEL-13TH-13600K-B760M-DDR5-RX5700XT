@@ -12,6 +12,7 @@ This EFI was developed for the following hardware:
 - **GPU**: AMD Radeon RX5700 XT - 8GB (Asus TUF)
 - **Memory**: XPG Lancer DDR5@5200 MHz - (2x16Gb) 
 - **Wireless Card**: Fenvi t919 (bcm94360)
+- **Audio Codec**: ALC897
 - **Storage**: KingSpec NMVE NE2280 PCIe Gen3 x4
 
 ## Features
