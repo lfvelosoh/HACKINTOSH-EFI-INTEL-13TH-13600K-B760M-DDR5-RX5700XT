@@ -40,6 +40,7 @@ Kext|Description
 [RestrictEvents.kext](https://github.com/acidanthera/RestrictEvents/releases)|Better experience with unsupported processors like AMD, Disable MacPro7,1 memory warnings and provide upgrade to macOS Monterey via Software Updates when available.
 [CpuTscSync.kext](https://github.com/acidanthera/CpuTscSync/releases)|It is a Lilu plugin, combining functionality of VoodooTSCSync and disabling xcpm_urgency if TSC is not in sync. It should solve some kernel panics after wake.
 [USBWakeFixup.kext](https://github.com/osy/USBWakeFixup)|This extension is a workaround for that issue by creating a fake ACPI device with the right wakeup params.
+[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases/)|Enables 'native' hibernation on PC's with hardware NVRAM on 10.10.5 and later.
 USBMap.kext|Kext generated after mapping the USB ports
 
 ## Tools
