@@ -23,7 +23,7 @@ This EFI was developed for the following hardware:
 - [x] Built-in Sound cards
 - [x] CPU Name
 - [x] GPU Name
-- [x] Sleep crashs
+- [ ] Sleep crashs ``In Progress``
 - [ ] Fans and LEDs turn Off after sleep ``In Progress``
 
 ## Kexts used (included)
