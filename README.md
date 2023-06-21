@@ -25,6 +25,7 @@ This EFI was developed for the following hardware:
 - [x] GPU Name
 - [ ] Sleep crashs ``In Progress``
 - [ ] Fans and LEDs turn Off after sleep ``In Progress``
+- [ ] Fan Controll ``In Progress``
 
 ## Kexts used (included)
 Kext|Description
