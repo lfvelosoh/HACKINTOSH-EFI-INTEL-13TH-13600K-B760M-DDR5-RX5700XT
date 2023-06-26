@@ -27,6 +27,10 @@ This EFI was developed for the following hardware:
 - [ ] Fans and LEDs turn Off after sleep ``In Progress``
 - [ ] Fan Controll ``In Progress``
 
+## Another Links
+[Install Guide](https://github.com/lfvelosoh/HACKINTOSH-EFI-INTEL-13TH-13600K-B760M-DDR5-RX5700XT/blob/main/InstallGuide.md)
+
+
 ## Kexts used (included)
 Kext|Description
 :----|:----
