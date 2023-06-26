@@ -1,6 +1,10 @@
 # HACKINTOSH-EFI-INTEL-13TH-13600K-B760M-DDR5-RX5700XT
 
->⛓ [Link to the original repository](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-13THGEN-RAPTOR-LAKE)
+>⛓ [Original repository](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-13THGEN-RAPTOR-LAKE)
+
+>📄 [Install Guide](https://github.com/lfvelosoh/HACKINTOSH-EFI-INTEL-13TH-13600K-B760M-DDR5-RX5700XT/blob/main/InstallGuide.md)
+
+>🪛 [Bios Settings](https://github.com/lfvelosoh/HACKINTOSH-EFI-INTEL-13TH-13600K-B760M-DDR5-RX5700XT/blob/main/BIOSSettings.md)
 
 >🔧 _Based on Opencore 0.9.3_
 
@@ -26,10 +30,6 @@ This EFI was developed for the following hardware:
 - [ ] Sleep crashs ``In Progress``
 - [ ] Fans and LEDs turn Off after sleep ``In Progress``
 - [ ] Fan Controll ``In Progress``
-
-## Another Links
-[Install Guide](https://github.com/lfvelosoh/HACKINTOSH-EFI-INTEL-13TH-13600K-B760M-DDR5-RX5700XT/blob/main/InstallGuide.md)
-
 
 ## Kexts used (included)
 Kext|Description
