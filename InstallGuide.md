@@ -8,14 +8,12 @@
      - Codec Placa de Audio
      - Controladora USB
  - Baixar arquivos necessários
-     - Python
-     - EFI Base
-     - ProperTree
-     - MountEFI
-     - genSMBIOS
+     - [Python](https://www.python.org/downloads/)
+     - [EFI Base](https://github.com/luchina-gabriel?tab=repositories)
+     - [ProperTree](https://github.com/corpnewt/ProperTree)
+     - [MountEFI](https://github.com/corpnewt/ProperTree)
+     - [genSMBIOS](https://github.com/corpnewt/ProperTree)
      - Kexts necessárias não incluídas
-     - ACPI Tables Prebuilt
- - Criar SSDTs
 
 
  - Instale o Python
@@ -90,41 +88,15 @@
  - Após formatar o disco, abrir o safari para confirmar se existe rede disponível.
  - Prosseguir com a instalação
 
- ### Pos Install
- - Mapear portas USB
-     - Baixar USBMap
-     - Executar
-     - Realizar o Discovery das portas
-     - Identificar cada porta
- - Corrigir `Built-in` das Placas de Redes
-     - Validar no app Hackintool se o flag `built-in` esta habilitado em todas as interfaces de rede
-     - Caso não esteja, copiar o device path da placa de rede
-     - Abra o `config.plist` e no seguinte caminho `DeviceProperties\Add`, faça as seguintes modificações:
-         - Crie um novo item e cole o path
-         - Altere o tipo do item para `Dictionary`
-         - Crie uma string filha no item criado com o nome `built-in` e mude para o tipo `data`
-         - em `built-in` coloque o valor `01000000`
-         - Repita com todas as interfaces que rede que não estiverem com o `built-in` ativado
-         - Salve e reinicie a maquina
- - Configurar Áudio
-     - Identifique o Codec de áudio utilizado pela placa mãe
-     - Baixar e instalar kext correspondente
-     - Incluir os layouts da placa de áudio no `boot-args` do `config.plist` conforme codec suportado. →  https://github.com/acidanthera/AppleALC/wiki/Supported-codecs
-     - Após a identificação do Codec acesse o app `Hackintool > PCIe` e pesquise pela placa de som.
-     - Copie o device PATH da placa de som
-     - Abra o `config.plist` e no seguinte caminho `DeviceProperties\Add`, faça as seguintes modificações:
-         - Crie um novo item e cole o path
-         - Altere o tipo do item para `Dictionary`
-         - Crie uma string filha no item criado com o nome `layout-id` e mude para o tipo `number`
-         - em `layout-id` coloque o valor do layout identificado
-         - Remova o layout no que foi inserido no `boot-args`
-         - Salve e reinicie a maquina
- - Configurar Som de Inicio
-     - Copiar o path da placa de áudio
-     - Acessar o `config.plist` e fazer as seguintes modificações em `UEFI\Audio`
-         - `AudioDevice → [Path da placa de Audio]`
-         - `AudioSupport → true`
-         - `AudioOutMask → -1`
+ ### [Pos Install](https://dortania.github.io/OpenCore-Post-Install/#how-to-follow-this-guide)
+ - [Mapear Portas USB](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html#Intel-usb-mapping)
+ - [Corrigir `Built-in` das Placas de Redes](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-en0)
+ - [Configurar Áudio](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id)
+ - [Configurar Som de Inicio](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-boot-chime-with-audiodxe)
+ -  [Boot sem Pendrive](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html#grabbing-opencore-off-the-usb)
+     - [OpenCore Packager](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html#grabbing-opencore-off-the-usb)
+ - [Corrigir CPU Name](https://github.com/corpnewt/CPU-Name)
+ - [Corrigir problemas de Sleep](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations)
  - Ajustes estéticos no `config.plist`
      - `PickerAtributes → 17` - Modo Gráfico Open Core
      - `PickerMode → External` - Modo gráfico Open Core
@@ -136,9 +108,4 @@
      - `LauncherOption → Full` - Migração da EFI para o disco do PC
      - `RequestBootVarRouting → True`  - Migração da EFI para o disco do PC
      - `ScanPolicy → 2687747` → Oculta os discos de Windows do menu de boot do Open Core
- - Instalar EFI
-     - Basta baixar o app OpenCore Packager
- - CPU Name
-     - Baixar app CPU_Name
-     - Incluir o arrastar o config.plist para o CMD.
- - Corrigir problemas de Sleep
+
