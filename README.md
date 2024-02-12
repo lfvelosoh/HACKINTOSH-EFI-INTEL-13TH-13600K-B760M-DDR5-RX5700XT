@@ -11,13 +11,15 @@
 > 🖥️ SmBIOS - iMacPro1,1
 
 This EFI was developed for the following hardware:
-- **CPU**: Intel Core i5 13th - 13600k
-- **Mainboard**: Gigabyte B760M Aorus Elite DDR5 (rev. 1.0)
-- **GPU**: AMD Radeon RX5700 XT - 8GB (Asus TUF)
-- **Memory**: XPG Lancer DDR5@5200 MHz - (2x16Gb) 
-- **Wireless Card**: Fenvi t919 (bcm94360)
-- **Audio Codec**: ALC897
-- **Storage**: KingSpec NMVE NE2280 PCIe Gen3 x4
+| Component       | Model                                    |
+|-----------------|------------------------------------------|
+| CPU             | Intel Core i5 13th - 13600k             |
+| Mainboard       | Gigabyte B760M Aorus Elite DDR5 (rev. 1.0) |
+| GPU             | AMD Radeon RX5700 XT - 8GB (Asus TUF)   |
+| Memory          | XPG Lancer DDR5@5200 MHz - (2x16Gb)     |
+| Wireless Card   | Fenvi t919 (bcm94360)                   |
+| Audio Codec     | ALC897                                   |
+| Storage         | KingSpec NMVE NE2280 PCIe Gen3 x4       |
 
 ## Features
 - [x] USB Map
